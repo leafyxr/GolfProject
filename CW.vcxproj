@@ -19,11 +19,32 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\ball.cpp" />
+    <ClCompile Include="src\Control.cpp" />
+    <ClCompile Include="src\door.cpp" />
+    <ClCompile Include="src\Game.cpp" />
+    <ClCompile Include="src\Hole.cpp" />
+    <ClCompile Include="src\HoleContactListener.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\SFMLDebugDraw.cpp" />
+    <ClCompile Include="src\StaticBlock.cpp" />
+    <ClCompile Include="src\TextBox.cpp" />
+    <ClCompile Include="src\triangle.cpp" />
+    <ClCompile Include="src\VectorMath.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="include\ball.h" />
+    <ClInclude Include="include\Control.h" />
+    <ClInclude Include="include\door.h" />
+    <ClInclude Include="include\Game.h" />
+    <ClInclude Include="include\Hole.h" />
+    <ClInclude Include="include\HoleContactListener.h" />
+    <ClInclude Include="include\PhysicsObject.h" />
     <ClInclude Include="include\SFMLDebugDraw.h" />
+    <ClInclude Include="include\StaticBlock.h" />
+    <ClInclude Include="include\TextBox.h" />
+    <ClInclude Include="include\triangle.h" />
+    <ClInclude Include="include\VectorMath.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
